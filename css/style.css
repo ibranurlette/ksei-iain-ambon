@@ -261,11 +261,42 @@ a {
   }
 
   #navigasi {
-    display: flex;
+    display: grid;
     grid-column: 1;
     grid-row: 2;
     justify-content: center;
   }
+
+
+  #first-navigasi {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #second-navigasi {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #third-navigasi {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #four-navigasi {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #five-navigasi {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+
+
+
+
 
 
 
