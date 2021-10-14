@@ -7,114 +7,244 @@
   <meta name="author" content="portofolio-team">
   <meta name="description" content="Portofolio Team">
   <meta name="keywords" content="Portofolio Team, html, html5">
-  <title>Portofolio Team</title>
+  <title>Ksei-IAIN-Ambon</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slideShow.css">
+  <script src="https://kit.fontawesome.com/e1426f32b5.js" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
 
   <header>
     <h3 id="judul-header">
-      Portofolio Team
+      Ksei IAIN Ambon
     </h3>
     <section id="navigasi">
-      <a href="#our-team-section">
+      <a href="">
         <h4 id="text-navigasi">
-          Our Team
+          Beranda
         </h4>
       </a>
-      <a href="#our-stack-section">
+      <a href="#about-us-section">
         <h4 id="text-navigasi">
-          Our Stack
+          Tentang Kami
+        </h4>
+      </a>
+      <a href="#our-activity-section">
+        <h4 id="text-navigasi">
+          Kegiatan
+        </h4>
+      </a>
+      <a href="#our-team-section">
+        <h4 id="text-navigasi">
+          Tim Kami
+        </h4>
+      </a>
+      <a href="#footer">
+        <h4 id="text-navigasi">
+          Kontak
         </h4>
       </a>
     </section>
   </header>
 
-  <!-- <section id="introduction-section">
-    <p id="text-introduction">Kami adalah </p>
-  </section> -->
 
+  <!-- SlideShow -->
 
-  <section id="our-team-section">
-    <h2 id="title-team">Our Team</h2>
-    <hr />
+  <section id="slideshow-section">
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="images/slide-1.jpg" width="100%">
+        <div class="text">Nama Kegiatan 1</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/slide-2.jpg" width="100%">
+        <div class="text">Nama Kegiatan 2</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/slide-3.jpg" width="100%">
+        <div class="text">Nama Kegiatan 3</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
   </section>
 
 
-  <section class="grid-container">
-    <section id="first-section">
-      <img src="images/jimbe.jpeg" id="img-team" />
-      <h4 id="title-name">BAIHAKI</h4>
-      <!-- <hr /> -->
-      <a href="">
-        <h4 id="detail">Detail</h4>
-      </a>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic ratione deleniti vitae culpa ipsam
-        dolor repudiandae iure et iusto, aut nobis facere optio voluptatem ducimus tenetur alias, adipisci omnis.</p>
+
+  <section id="about-us-section">
+    <h2 id="title-team">Berkenalan Dengan Kami</h2>
+    <hr id="divider-heading" />
+  </section>
+
+  <section class="grid-container-about-us">
+    <section id="first-section-about-us">
+      <h3 id="title-name">Kelompok Studi Ekonomi Islam IAIN Ambon</h3>
+      <hr id="divider-about-us" />
+      <p id="description">Kelompok Studi Ekonomi Islam (KSEI) adalah organisasi di bidang ekonomi islam yang di naungi
+        oleh FoSSEI (Forum
+        Silaturahmi Studi Ekonomi Islam) yang dibentuk pada tanggal 13 Mei tahun 2000 yang berfungsi sebagai wadah
+        silaturahmi tingkat Nasional yang mengakomodir mahasiswa pecinta Ekonomi Islam yang tergabung dalam Kelompok
+        Studi Ekonomi Islam (KSEI) di masing-masing kampus di seluruh Indonesia. Di Indonesia telah terbentuk kurang
+        lebih 207 KSEI yang berada di 14 Regional di seluruh indonesia.</p>
     </section>
 
-    <section id="second-section">
-      <img src="images/luffy.jpeg" id="img-team" />
-      <h4 id="title-name">ALFIAN</h4>
-      <a href="">
-        <h4 id="detail">Detail</h4>
-      </a>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic ratione deleniti vitae culpa ipsam
-        dolor repudiandae iure et iusto, aut nobis facere optio voluptatem ducimus tenetur alias, adipisci omnis.</p>
-    </section>
-
-    <section id='third-section'>
-      <img src="images/sanji.jpeg" id="img-team" />
-      <h4 id="title-name">HILMI AMINUDIN</h4>
-      <a href="">
-        <h4 id="detail">Detail</h4>
-      </a>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic ratione deleniti vitae culpa ipsam
-        dolor repudiandae iure et iusto, aut nobis facere optio voluptatem ducimus tenetur alias, adipisci omnis.</p>
-    </section>
-
-    <section id='four-section'>
-
-      <img src="images/zoro.jpeg" id="img-team" />
-      <h4 id="title-name">IBRA NURLETTE</h4>
-      <a href="https://ibranurlette.github.io/portofolio.github.io/" target="__blank">
-        <h4 id="detail">Detail</h4>
-      </a>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic ratione deleniti vitae culpa ipsam
-        dolor repudiandae iure et iusto, aut nobis facere optio voluptatem ducimus tenetur alias, adipisci omnis.
+    <section id="second-section-about-us">
+      <h3 id="title-name">Visi, Misi dan Values</h3>
+      <hr id="divider-about-us" />
+      <p id="description"><strong>Forum Silaturahmi Ekonomi Islam (FoSSEI) juga mempunyai Visi, Misi dan
+          Values.</strong></p>
+      <p id="description"><b>Visi : </b> "Membumikan ajaran islam dalam bidang ekonomi".</p>
+      <p id="description"><b>Misi : </b></p>
+      <p id="description">1. Memberdayakan dan mengembangkan sistem ekonomi islam dalam tataran keilmuan dan aplikasi
       </p>
+      <p id="description">2. Menjalin ukhuwah islamiyah antara kelompok-kelompok studi ekonomi islam dan lembaga sejenis
+        dengan berusaha
+        membangun budaya islamiyah, ilmiah dan profesional</p>
+      <p id="description"><b>Values : </b> "Ukhuwah-Dakwah-ilmiah".</p>
     </section>
   </section>
 
 
-  <section id="our-stack-section">
-    <h2 id="title-team">Our Stack</h2>
-    <hr />
+
+
+  <section id="our-activity-section">
+    <h2 id="title-team">Yang Kami Lakukan</h2>
+    <hr id="divider-heading" />
   </section>
 
 
   <section class="grid-container">
     <section id="first-section">
       <img src="images/react.png" id="img-team" />
-      <h4 id="title-name">REACT</h4>
+      <h4 id="title-name">Diklat Ekonomi Islam</h4>
+      <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic ratione deleniti vitae
+        culpa ipsam
+        dolor repudiandae iure et iusto, aut nobis facere optio voluptatem ducimus tenetur alias, adipisci omnis.</p>
     </section>
 
     <section id="second-section">
       <img src="images/vue.png" id="img-team" />
-      <h4 id="title-name">VUE JS</h4>
+      <h4 id="title-name">Muktamar</h4>
+      <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic ratione deleniti vitae
+        culpa ipsam
+        dolor repudiandae iure et iusto, aut nobis facere optio voluptatem ducimus tenetur alias, adipisci omnis.</p>
     </section>
 
     <section id='third-section'>
       <img src="images/laravel.png" id="img-team" />
-      <h4 id="title-name">LARAVEL</h4>
+      <h4 id="title-name">Pelantikan & Rapat Kerja</h4>
+      <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic ratione deleniti vitae
+        culpa ipsam
+        dolor repudiandae iure et iusto, aut nobis facere optio voluptatem ducimus tenetur alias, adipisci omnis.</p>
+    </section>
+    <section id='four-section'>
+      <img src="images/laravel.png" id="img-team" />
+      <h4 id="title-name">Upgrading</h4>
+      <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic ratione deleniti vitae
+        culpa ipsam
+        dolor repudiandae iure et iusto, aut nobis facere optio voluptatem ducimus tenetur alias, adipisci omnis.</p>
+    </section>
+    <section id='five-section'>
+      <img src="images/laravel.png" id="img-team" />
+      <h4 id="title-name">Kantin (Kajian Rutin)</h4>
+      <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic ratione deleniti vitae
+        culpa ipsam
+        dolor repudiandae iure et iusto, aut nobis facere optio voluptatem ducimus tenetur alias, adipisci omnis.</p>
+    </section>
+    <section id='six-section'>
+      <img src="images/laravel.png" id="img-team" />
+      <h4 id="title-name">Temilreg</h4>
+      <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi hic ratione deleniti vitae
+        culpa ipsam
+        dolor repudiandae iure et iusto, aut nobis facere optio voluptatem ducimus tenetur alias, adipisci omnis.</p>
     </section>
   </section>
 
 
-  <footer>
-    Copyright by Portofolio Team
+  <section id="our-team-section">
+    <h2 id="title-team">Pengurus Terbaik Kami</h2>
+    <hr id="divider-heading" />
+  </section>
+
+  <section class="grid-container">
+    <section id="first-section">
+      <img src="images/jimbe.jpeg" id="img-team" />
+      <h4 id="title-name">BAIHAKI</h4>
+      <h4 id="title-name">(KETUA)</h4>
+
+    </section>
+
+    <section id="second-section">
+      <img src="images/luffy.jpeg" id="img-team" />
+      <h4 id="title-name">ALFIAN</h4>
+      <h4 id="title-name">(WAKIL KETUA)</h4>
+
+    </section>
+
+    <section id='third-section'>
+      <img src="images/sanji.jpeg" id="img-team" />
+      <h4 id="title-name">HILMI AMINUDIN</h4>
+      <h4 id="title-name">(BENDAHARA)</h4>
+    </section>
+
+    <section id='four-section'>
+      <img src="images/zoro.jpeg" id="img-team" />
+      <h4 id="title-name">IBRA NURLETTE</h4>
+      <h4 id="title-name">(SEKRETARIS)</h4>
+    </section>
+  </section>
+
+
+  <footer id="footer">
+    <section id="first-section-footer">
+      <h3>KONTAK KAMI</h3>
+      <strong>ALAMAT: </strong>
+      <p>JALAN DR. H. TARMIZI TAHER - KEBUN CENGKEH - BATU MERAH ATAS</p>
+      <p>SIRIMAU</p>
+      <p>KOTA AMBON</p>
+      <p>MALUKU - 97128</p>
+      <p>INDONESIA</p>
+    </section>
+    <section id="second-section-footer">
+      <a href="https://www.instagram.com/ksei_ambon/" target="__blank">
+        <i id="icon" class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/ksei.eksy" target="__blank">
+        <i id="icon" class="fab fa-facebook"></i>
+      </a>
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzBWPHDmgkCxZngwcTLmzfGTFPHQfDkFcChZRCjlPzBKxdVnqTTMNfKFQCsjlCxzxknrhQW"
+        target="__blank">
+        <i id="icon" class="far fa-envelope"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCE73wAOlEWAq-bE3OGjs4Rw">
+        <i id="icon" class="fab fa-youtube"></i>
+      </a>
+      <p>
+        Copyright by Portofolio Team
+      </p>
+    </section>
   </footer>
 </body>
+
+
+
+<script src="js/slideShow.js" type="text/javascript"></script>
 
 </html>

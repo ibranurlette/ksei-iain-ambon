@@ -31,6 +31,8 @@ header {
   color: white;
 }
 
+#about-us-section,
+#our-activity-section,
 #our-team-section,
 #our-stack-section {
   display: grid;
@@ -39,9 +41,11 @@ header {
 
 
 
-hr {
+#divider-heading {
   width: 100%;
   margin-bottom: 30px;
+  height: 2px;
+  background-color: black;
 }
 
 a {
@@ -53,20 +57,33 @@ a {
   text-align: center;
 }
 
-#detail {
-  box-shadow: 2px 2px 4px #DBDBDC;
-  padding: 10px;
-  border-radius: 20px;
-  text-align: center;
-  background-color: #5ACBF0;
-  color: #F8F9FA;
+
+#divider-about-us {
+  width: 30%;
+  height: 1px;
+  background-color: black;
 }
+
+#description {
+  font-size: large;
+  text-align: justify;
+}
+
+
 
 .grid-container {
   display: grid;
   justify-content: center;
   margin-bottom: 70px;
 }
+
+.grid-container-about-us {
+  display: grid;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+
 
 /* Media Query untuk tampilan responsive  */
 /* Untuk Leptop */
@@ -82,6 +99,30 @@ a {
     position: absolute;
     right: 0;
     margin-right: 30px;
+  }
+
+  #first-section-about-us {
+    grid-column: 1;
+    grid-row: 1;
+    width: 500px;
+  }
+
+  #second-section-about-us {
+    grid-column: 2;
+    grid-row: 1;
+    width: 500px;
+  }
+
+  #first-section-footer {
+    grid-column: 1;
+    grid-row: 1;
+    /* width: 500px; */
+  }
+
+  #second-section-footer {
+    grid-column: 2;
+    grid-row: 1;
+    /* width: 500px; */
   }
 
   #first-section {
@@ -110,6 +151,18 @@ a {
     grid-row: 1;
     width: 200px;
   }
+
+  #five-section {
+    grid-column: 1;
+    grid-row: 2;
+    width: 200px;
+  }
+
+  #six-section {
+    grid-column: 2;
+    grid-row: 2;
+    width: 200px;
+  }
 }
 
 /* Untuk Tablet */
@@ -125,6 +178,21 @@ a {
     position: absolute;
     right: 0;
     margin-right: 30px;
+  }
+
+  #first-section-about-us {
+    grid-column: 1;
+    grid-row: 1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+  }
+
+  #second-section-about-us {
+    grid-column: 2;
+    grid-row: 1;
+    margin-bottom: 10px;
+    width: 350px;
   }
 
   #first-section {
@@ -152,6 +220,20 @@ a {
   #four-section {
     grid-column: 6 / span 6;
     grid-row: 2;
+    margin-right: 10px;
+    width: 200px;
+  }
+
+  #five-section {
+    grid-column: 1 / span 5;
+    grid-row: 3;
+    margin-right: 10px;
+    width: 200px;
+  }
+
+  #six-section {
+    grid-column: 6 / span 6;
+    grid-row: 3;
     width: 200px;
   }
 
@@ -182,7 +264,9 @@ a {
 
   #first-section,
   #second-section,
-  #third-section {
+  #third-section,
+  #four-section,
+  #five-section {
     margin-bottom: 10px;
   }
 }
@@ -190,7 +274,11 @@ a {
 #first-section,
 #second-section,
 #third-section,
-#four-section {
+#four-section,
+#five-section,
+#six-section,
+#first-section-about-us,
+#second-section-about-us {
   background-color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -198,6 +286,7 @@ a {
   color: black;
   border-radius: 20px;
   box-shadow: 2px 2px 4px #DBDBDC;
+  margin-bottom: 20px;
 }
 
 #img-team {
@@ -208,16 +297,24 @@ a {
   box-shadow: 2px 2px 4px #DBDBDC;
 }
 
+#icon {
+  margin-right: 20px;
+}
+
+
 
 /* Untuk Footer */
 footer {
   background-color: white;
-  color: #0F80FB;
+  color: black;
+  align-items: center;
   padding: 20px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+  display: grid;
   text-align: center;
-  left: 0;
   box-shadow: 2px 2px 4px #DBDBDC;
+}
+
+
+#second-section-footer {
+  color: #0F80FB;
 }
