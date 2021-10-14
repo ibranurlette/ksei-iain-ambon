@@ -17,7 +17,6 @@ header {
 
 #judul-header {
   color: white;
-  padding: 20px;
 }
 
 #introduction-section {
@@ -92,6 +91,11 @@ a {
     display: flex;
     align-items: center;
     height: 60px;
+  }
+
+  #judul-header {
+    color: white;
+    padding: 20px;
   }
 
   #navigasi {
@@ -173,6 +177,11 @@ a {
     height: 60px;
   }
 
+  #judul-header {
+    color: white;
+    padding: 20px;
+  }
+
   #navigasi {
     display: flex;
     position: absolute;
@@ -243,21 +252,19 @@ a {
 /* Untuk Hp */
 @media only screen and (max-width: 600px) {
 
-  header {
-    display: flex;
-    align-items: center;
-    height: 100px;
-  }
-
   #judul-header {
     grid-column: 1;
     grid-row: 1;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
   }
 
   #navigasi {
     display: flex;
     grid-column: 1;
     grid-row: 2;
+    justify-content: center;
   }
 
 
