@@ -1,0 +1,223 @@
+/* CSS INI UNTUK MENGATUR TAMPILAN DI HTML */
+
+body {
+  background-color: #F8F9FA;
+}
+
+/* untuk header */
+header {
+  background-color: #343A40;
+}
+
+
+#text-navigasi {
+  color: #8E9295;
+  margin-right: 20px;
+}
+
+#judul-header {
+  color: white;
+  padding: 20px;
+}
+
+#introduction-section {
+  display: grid;
+  justify-content: center;
+}
+
+#text-introduction {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+#our-team-section,
+#our-stack-section {
+  display: grid;
+  justify-content: center;
+}
+
+
+
+hr {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#title-name {
+  text-align: center;
+}
+
+#detail {
+  box-shadow: 2px 2px 4px #DBDBDC;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #5ACBF0;
+  color: #F8F9FA;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+/* Media Query untuk tampilan responsive  */
+/* Untuk Leptop */
+@media only screen and (min-width: 992px) {
+  header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+
+  #navigasi {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+  }
+
+  #first-section {
+    grid-column: 1;
+    grid-row: 1;
+    margin-right: 10px;
+    width: 200px;
+  }
+
+  #second-section {
+    grid-column: 2;
+    grid-row: 1;
+    margin-right: 10px;
+    width: 200px;
+  }
+
+  #third-section {
+    grid-column: 3;
+    grid-row: 1;
+    margin-right: 10px;
+    width: 200px;
+  }
+
+  #four-section {
+    grid-column: 4;
+    grid-row: 1;
+    width: 200px;
+  }
+}
+
+/* Untuk Tablet */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+
+  #navigasi {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+  }
+
+  #first-section {
+    grid-column: 1 / span 5;
+    grid-row: 1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+
+  #second-section {
+    grid-column: 6 / span 6;
+    grid-row: 1;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+
+  #third-section {
+    grid-column: 1 / span 5;
+    grid-row: 2;
+    margin-right: 10px;
+    width: 200px;
+  }
+
+  #four-section {
+    grid-column: 6 / span 6;
+    grid-row: 2;
+    width: 200px;
+  }
+
+}
+
+
+/* Untuk Hp */
+@media only screen and (max-width: 600px) {
+
+  header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+  }
+
+  #judul-header {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #navigasi {
+    display: flex;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+
+
+  #first-section,
+  #second-section,
+  #third-section {
+    margin-bottom: 10px;
+  }
+}
+
+#first-section,
+#second-section,
+#third-section,
+#four-section {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px #DBDBDC;
+}
+
+#img-team {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px #DBDBDC;
+}
+
+
+/* Untuk Footer */
+footer {
+  background-color: white;
+  color: #0F80FB;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  left: 0;
+  box-shadow: 2px 2px 4px #DBDBDC;
+}
