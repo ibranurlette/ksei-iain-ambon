@@ -49,11 +49,19 @@ a {
   justify-content: center;
 }
 
+#title-team {
+  text-align: center;
+}
+
 
 #first-section,
+#first-section-team,
 #second-section,
+#second-section-team,
 #third-section,
+#third-section-team,
 #four-section,
+#four-section-team,
 #five-section,
 #six-section,
 #first-section-about-us,
@@ -68,10 +76,29 @@ a {
   margin-bottom: 20px;
 }
 
-#img-team {
+
+
+
+#img-logo,
+#img-logo1,
+#img-logo2 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: white;
+}
+
+
+
+
+
+
+#img-team,
+#img-work {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 5%;
   box-shadow: 2px 2px 4px #DBDBDC;
 }
