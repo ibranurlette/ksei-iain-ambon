@@ -57,3 +57,10 @@ function showSlidesWork(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+
+// To remove anouncement
+function remove_img() {
+  document.getElementById("anouncement").remove();
+  document.getElementById("remove_button").remove();
+  document.getElementById("bottom-divider").remove();
+}

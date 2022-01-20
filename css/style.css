@@ -76,20 +76,13 @@ a {
   margin-bottom: 20px;
 }
 
-
-
-
 #img-logo {
   width: 50px;
   height: 50px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 5%;
   background-color: white;
 }
-
-
-
-
 
 
 #img-team,
@@ -99,4 +92,33 @@ a {
   object-fit: cover;
   border-radius: 5%;
   box-shadow: 2px 2px 4px #DBDBDC;
+}
+
+#remove_button {
+  background-color: #E93F33;
+  border-width: 1;
+  border-color: white;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+#bottom-divider {
+  width: 100%;
+  margin-bottom: 30px;
+  height: 2px;
+  background-color: black;
+}
+
+#anouncement {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 2px 2px 4px #DBDBDC;
+}
+
+#our-anouncement-section {
+  display: grid;
+  justify-content: center;
 }
