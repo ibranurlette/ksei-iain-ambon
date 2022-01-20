@@ -44,7 +44,8 @@ a {
 #about-us-section,
 #our-activity-section,
 #our-team-section,
-#our-stack-section {
+#our-stack-section,
+#our-news-section {
   display: grid;
   justify-content: center;
 }
@@ -65,7 +66,8 @@ a {
 #five-section,
 #six-section,
 #first-section-about-us,
-#second-section-about-us {
+#second-section-about-us,
+#first-section-news {
   background-color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -75,6 +77,8 @@ a {
   box-shadow: 2px 2px 4px #DBDBDC;
   margin-bottom: 20px;
 }
+
+
 
 #img-logo {
   width: 50px;
@@ -86,7 +90,8 @@ a {
 
 
 #img-team,
-#img-work {
+#img-work,
+#img-news {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -94,31 +99,30 @@ a {
   box-shadow: 2px 2px 4px #DBDBDC;
 }
 
+
+
+
+#detail_button {
+  background-color: #614D82;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+}
+
 #remove_button {
-  background-color: #E93F33;
-  border-width: 1;
-  border-color: white;
-  color: white;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-}
-
-#bottom-divider {
-  width: 100%;
-  margin-bottom: 30px;
-  height: 2px;
   background-color: black;
-}
-
-#anouncement {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  box-shadow: 2px 2px 4px #DBDBDC;
-}
-
-#our-anouncement-section {
-  display: grid;
-  justify-content: center;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
 }

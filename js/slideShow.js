@@ -60,7 +60,6 @@ function showSlidesWork(n) {
 
 // To remove anouncement
 function remove_img() {
-  document.getElementById("anouncement").remove();
-  document.getElementById("remove_button").remove();
-  document.getElementById("bottom-divider").remove();
+  document.getElementById("first-section-news").remove();
+  document.getElementById("our-news-section").remove();
 }
